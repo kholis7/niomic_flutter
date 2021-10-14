@@ -7,9 +7,10 @@ void main() {
 class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Text("Selamat Datang Flutter"),
-      ),
-    );
+        //Menempatkan Teks Ditengah (Widget Center)
+        // body: Container(child: Center(child: Text("Selamat Belajar"))),
+
+        body:
+            Center(child: Container(child: Text("Selamat Datang Di Flutter"))));
   }
 }
